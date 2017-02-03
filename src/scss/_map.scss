@@ -1,0 +1,43 @@
+.bigform-content {
+  border: solid 5px #DDD;
+  overflow: hidden;
+  position:relative;
+  background:#DDD;
+
+  .bigform-content h1 {
+    margin:0;
+  }
+
+  .bigform-content input[type=submit] {
+    margin-top:10px;
+  }
+
+  .modal, .modal-backdrop {
+    position: absolute !important;
+  }
+
+  .overlay {
+    fill: none;
+    pointer-events: all;
+  }
+
+  div.tooltip {
+    position: absolute;
+    text-align: center;
+    min-width: 60px;
+    min-height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #DDD;
+    border: 0;
+    border-radius: 8px;
+    border-top-left-radius:0px;
+    pointer-events: none;
+    z-index: 1000;
+  }
+}
+.map-key {
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+

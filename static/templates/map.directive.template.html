@@ -1,0 +1,16 @@
+<div>
+    <!-- TODO: move styles to sass -->
+    <span class="map-key">Open : <i class="fa fa-circle" style="color:#1FC91F"></i></span>
+    <span class="map-key">Closed : <i class="fa fa-circle" style="color:#727272"></i></span>
+    <span class="map-key">Changing : <i class="fa fa-exclamation-triangle" style="color:#E8D205"></i></span>
+    <span class="map-key">Unknown : <i class="fa fa-circle" style="color:#D10702"></i></span>
+    <span class="map-key">Offline : <i class="fa fa-square-o" style="color:#AAAAAA"></i></span>
+    <div class="bigform-content" style="background-color:#DDD">
+        <div ng-transclude></div>
+    </div>
+</div>
+<div class="form-inline" ng-show="canEdit && editMode">
+    <div class="form-group">
+        <input type="file" class="form-control" id="upload-button"/>
+    </div>
+</div>
