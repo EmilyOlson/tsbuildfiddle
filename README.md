@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:D3 Test Work}
+## Test TS Build
 
 DEMO PURPOSES ONLY
 
@@ -8,7 +6,3 @@ DEMO PURPOSES ONLY
 
 npm install
 npm run setup
-
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
